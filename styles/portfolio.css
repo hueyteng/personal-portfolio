@@ -1,17 +1,30 @@
 body {
   font-family: "Nunito", sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 60px;
-  font-family: "Nunito Sans", sans-serif;
-}
-
-h4 {
-  text-align: center;
+  color: #494f4a;
 }
 
 .hero-content {
-  background: #ffffff;
+  height: 100vh;
+  background: #eef3ee;
+  z-index: 100;
+  padding-top: 150px;
+}
+
+.hero-content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 75px;
+  font-family: "Rubik", sans-serif;
+}
+
+.hero-content h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.hero-content p {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 1px;
 }
