@@ -66,13 +66,25 @@ h3 {
 
 .about-content {
   padding-top: 120px;
+  margin-top: 50px;
 }
 
 .about-photo img {
-  width: 300px;
-  border-radius: 80%;
+  width: 600px;
+  border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+
+.about-header {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.about-subheader {
+  font-family: var(--heading-font);
+  font-size: 22px;
 }
 
 @media (max-width: 576px) {
