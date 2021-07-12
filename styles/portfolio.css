@@ -23,7 +23,7 @@ body {
   height: 100vh;
   background: #eef3ee;
   z-index: 100;
-  padding-top: 200px;
+  padding-top: 250px;
   text-align: center;
 }
 
@@ -116,5 +116,21 @@ h3 {
   .work-description {
     display: block;
     margin: 0 auto;
+  }
+
+  .about-content {
+    margin: 0 35px;
+  }
+
+  .about-photo img {
+    width: 300px;
+  }
+
+  .about-header {
+    font-size: 26px;
+  }
+
+  .about-subheader {
+    font-size: 18px;
   }
 }
