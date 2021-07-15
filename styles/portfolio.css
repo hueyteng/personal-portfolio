@@ -101,6 +101,10 @@ h3 {
 }
 
 /*-----Project page-----*/
+.work-container {
+  margin: 10px 80px;
+}
+
 .project-partition {
   width: 70%;
   display: block;
@@ -166,6 +170,10 @@ h3 {
 
   .about-subheader {
     font-size: 17px;
+  }
+
+  .work-container {
+    margin: 10px auto;
   }
 
   .project-page h1 {
