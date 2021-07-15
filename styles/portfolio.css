@@ -10,6 +10,7 @@ body {
   color: var(--font-color);
 }
 
+/*-----Nav-bar-----*/
 .navbar {
   padding-top: 20px;
 }
@@ -20,6 +21,7 @@ body {
   font-family: var(--heading-font);
 }
 
+/*-----Homepage-----*/
 .hero-content {
   height: 100vh;
   background: #eef3ee;
@@ -44,6 +46,14 @@ body {
   margin-bottom: 1px;
 }
 
+h3 {
+  font-family: var(--heading-font);
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 50px 0 80px 0;
+}
+
+/*-----Buttons-----*/
 .btn-branding {
   border-color: var(--branding-color);
   border-radius: 3px;
@@ -58,22 +68,17 @@ body {
   color: #ffffff;
 }
 
-h3 {
-  font-family: var(--heading-font);
-  font-size: 50px;
-  text-transform: uppercase;
-  margin: 50px 0 80px 0;
-}
-
+/*-----Content-----*/
 .content-page {
   background: #eef3ee;
 }
 
 .content-container {
   padding-top: 120px;
-  margin-top: 50px;
+  margin: 0 auto;
 }
 
+/*-----About page-----*/
 .about-photo img {
   width: 600px;
   border-radius: 50%;
@@ -92,8 +97,17 @@ h3 {
 .about-subheader {
   font-family: var(--heading-font);
   font-size: 22px;
+  color: var(--branding-color);
 }
 
+/*-----Project page-----*/
+.project-partition {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*-----@media queries-----*/
 @media (max-width: 576px) {
   .hero-content h1 {
     font-size: 50px;
@@ -125,8 +139,8 @@ h3 {
     margin: 0 auto;
   }
 
-  .about-content {
-    margin: 0 30px;
+  .content {
+    margin: 0 20px;
   }
 
   .about-photo img {
