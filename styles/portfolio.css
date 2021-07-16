@@ -111,15 +111,43 @@ h3 {
   margin: 0 auto;
 }
 
-.project-page h1 {
+.header {
   font-family: var(--heading-font);
   font-size: 55px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .work-img {
   border: 5px solid #ffffff;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*-----Contact page-----*/
+.contact-page {
+  margin: 0 50px;
+  text-align: center;
+}
+
+.contact-subhead {
+  color: var(--branding-color);
+  margin-bottom: 2px;
+}
+
+.contact-info {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-icons {
+  color: var(--branding-color);
+  margin: 20px 20px;
+  font-size: 35px;
+}
+
+.contact-icons:hover {
+  color: var(--font-color);
+  transition: ease-in-out 0.1s;
 }
 
 /*-----@media queries-----*/
@@ -176,8 +204,29 @@ h3 {
     margin: 10px auto;
   }
 
-  .project-page h1 {
+  .header {
     font-size: 35px;
     margin-bottom: 40px;
+  }
+
+  .contact-page {
+    margin: 0 auto;
+  }
+
+  .contact-subhead {
+    font-size: 18px;
+  }
+
+  .contact-info {
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+
+  .contact-icons {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 15px;
   }
 }
