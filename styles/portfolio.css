@@ -160,9 +160,9 @@ body {
     font-size: 15px;
   }
 
-  h3 {
+  .hero-work h3 {
     font-size: 23px;
-    margin: 30px 0 20px 0;
+    margin: 80px 0 20px 0;
   }
 
   .mainpage-img {
