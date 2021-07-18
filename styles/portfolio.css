@@ -25,7 +25,6 @@ body {
 .hero-content {
   height: 100vh;
   background: #eef3ee;
-  z-index: 100;
   padding-top: 250px;
   text-align: center;
 }
@@ -46,11 +45,11 @@ body {
   margin-bottom: 1px;
 }
 
-h3 {
+.hero-work h3 {
   font-family: var(--heading-font);
   font-size: 50px;
   text-transform: uppercase;
-  margin: 50px 0 80px 0;
+  margin: 100px 0 80px 0;
 }
 
 /*-----Buttons-----*/
