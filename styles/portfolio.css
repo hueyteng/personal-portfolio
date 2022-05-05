@@ -141,6 +141,12 @@ body {
   margin-bottom: 20px;
 }
 
+/*-----Portfolio page-----*/
+.portfolio-container {
+  display: block;
+  text-align: center;
+}
+
 /*-----Project page-----*/
 .work-container {
   margin: 0px 80px;
