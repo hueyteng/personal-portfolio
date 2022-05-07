@@ -147,6 +147,12 @@ body {
   text-align: center;
 }
 
+.copywriting {
+  text-align: center;
+  margin: -80px 10px;
+  color: var(--branding-color);
+}
+
 .return-to-work a {
   color: var(--branding-color);
   font-size: 15px;
