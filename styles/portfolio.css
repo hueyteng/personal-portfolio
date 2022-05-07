@@ -147,6 +147,17 @@ body {
   text-align: center;
 }
 
+.return-to-work a {
+  color: var(--branding-color);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.return-to-work a:hover {
+  color: var(--font-color);
+  transition: all 100ms ease-in-out;
+}
+
 /*-----Project page-----*/
 .work-container {
   margin: 0px 80px;
